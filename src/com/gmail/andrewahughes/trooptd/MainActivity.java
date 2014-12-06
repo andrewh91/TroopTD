@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		gameView = (GameView) findViewById(R.id.gameView);//need to add the gameView to r.id in xml
+		gameView = (GameView) findViewById(R.id.gameView);//need to add the gameView to r.id in xml before we do this 
 	}
 
 	@Override
